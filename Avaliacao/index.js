@@ -113,7 +113,7 @@ function atualizarListaLivrosSalvos() {
   const listaElement = document.getElementById("lista_livros_salvos");
   if (!listaElement) return;
 
-  listaElement.innerHTML = ""; // limpa a lista anterior
+  listaElement.innerHTML = ""; 
 
   listaLivros.forEach((livro) => {
     const li = document.createElement("li");
