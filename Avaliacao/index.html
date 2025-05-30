@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consulta de Livros</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <label for="input_isbn">Digite o ISBN</label>
+    <input type="text" id="input_isbn" placeholder="Ex: 9788532524727" />
+    <button id="btn_buscar">Buscar</button>
+
+    <div id="info_livro" class="oculto">
+      <label>Título</label>
+      <p id="titulo"></p>
+
+      <label>Subtítulo</label>
+      <p id="subtitulo"></p>
+
+      <label>Autores</label>
+      <p id="autores"></p>
+
+      <label>Editora</label>
+      <p id="editora"></p>
+
+      <label>Sinopse</label>
+      <p id="sinopse"></p>
+
+      <label>Ano de publicação</label>
+      <p id="ano"></p>
+
+      <label>Páginas</label>
+      <p id="paginas"></p>
+
+      <label>Categorias</label>
+      <p id="categorias"></p>
+
+      <img id="img_capa" class="capa oculto" src="" alt="Capa do livro" />
+
+      <button id="btn_salvar">Salvar</button>
+      <button id="btn_cancelar">Cancelar</button>
+    </div>
+
+    <h2>Livros Salvos</h2>
+    <ul id="lista_livros_salvos"></ul>
+
+  </body>
+</html>
